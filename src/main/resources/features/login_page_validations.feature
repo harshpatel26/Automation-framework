@@ -6,9 +6,9 @@ Feature: validate login page
     And user navigate to "Sign in" page
     Then User should see the "Continue" button
     And User should see the "Create your Amazon account" link
-    Then User enter email address "harsh.patel26@icloud.com"
+    Then User enter email address "abc@icloud.com"
     And User click on the Continue button
-    And User enter password "Krishna26"
+    And User enter password "123"
     And User click Sign in button
 
 
